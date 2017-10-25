@@ -14,14 +14,14 @@ article {
   width: 50%;
   margin: auto;
   background-color: white;
-  padding: 20px 10px 20px 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 section {
   width: 50%;
   margin: auto;
   background-color: white;
-  padding: 20px 10px 20px 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 header h1 {
@@ -47,8 +47,26 @@ p {
   color: black;
 }
 
+ul {
+  font-family: arial;
+  font-size: 14pt;
+  color: black;
+  padding-left: 20px;
+}
+
+ol {
+  font-family: arial;
+  font-size: 14pt;
+  color: black;
+  padding-left: 20px;
+}
+
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: pink;
 }
 
 .nav {
@@ -60,4 +78,5 @@ a {
   border-width: 1px;
   border-style: solid;
   padding: 10px 20px 10px 20px;
+  margin-top: 10px;
 }
