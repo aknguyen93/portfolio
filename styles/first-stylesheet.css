@@ -1,0 +1,63 @@
+body {
+  background-color: thistle;
+  margin-top: auto;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+article {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 10px 20px 10px;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  padding: 20px 10px 20px 10px;
+}
+
+header h1 {
+  color: mediumpurple;
+  font-size: 36pt;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 18pt;
+  color: cadetblue;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 16pt;
+  color: gray;
+}
+
+p {
+  font-family: arial;
+  font-size: 14pt;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  font-family: arial;
+  text-align: center;
+}
+
+.botfooter {
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 20px 10px 20px;
+}
