@@ -7,20 +7,10 @@ header {
   text-align: center;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
 article {
-  width: 50%;
-  margin: auto;
-  background-color: white;
-  padding: 10px 20px 10px 20px;
-  border-style: solid;
-  border-color: purple;
-  border-radius: 10px;
-}
-
-section {
   width: 50%;
   margin: auto;
   background-color: white;
@@ -36,7 +26,7 @@ header h1 {
 }
 
 h2 {
-  font-family: arial;
+  font-family: 'Poiret One', cursive;
   font-size: 18pt;
   color: cadetblue;
 }
@@ -57,13 +47,13 @@ h3 {
 }
 
 p {
-  font-family: arial;
-  font-size: 14pt;
+  font-family: 'Arapey', serif;
+  font-size: 12pt;
   color: dimgray;
 }
 
 ul {
-  font-family: arial;
+  font-family: 'Arapey', serif;
   font-size: 14pt;
   color: dimgray;
   padding-left: 20px;
@@ -71,7 +61,7 @@ ul {
 }
 
 ol {
-  font-family: arial;
+  font-family: 'Arapey', serif;
   font-size: 14pt;
   color: dimgray;
   padding-left: 20px;
