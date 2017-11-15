@@ -3,6 +3,11 @@ body {
   margin-top: auto;
 }
 
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+
 header {
   text-align: center;
   width: 100%;
@@ -10,11 +15,12 @@ header {
   padding-bottom: 40px;
 }
 
-article {
-  width: 50%;
+.main {
   margin: auto;
+  width: 100%;
+  float: left;
+  
   background-color: white;
-  padding: 10px 20px 10px 20px;
   border-style: solid;
   border-color: purple;
   border-radius: 10px;
@@ -83,6 +89,7 @@ a:hover {
 }
 
 .botfooter {
+  clear: both;
   border-width: 1px;
   border-style: solid;
   padding: 5px 20px 5px 20px;
