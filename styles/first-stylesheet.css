@@ -4,8 +4,10 @@ body {
 }
 
 .wrapper {
+  display: block;
   width: 75%;
   margin: auto;
+  background-color: white;
 }
 
 header {
@@ -16,10 +18,9 @@ header {
 }
 
 .main {
+  display: block;
   margin: auto;
-  width: 100%;
-  float: left;
-  
+  padding: 20px;
   background-color: white;
   border-style: solid;
   border-color: purple;
@@ -93,6 +94,6 @@ a:hover {
   border-width: 1px;
   border-style: solid;
   padding: 5px 20px 5px 20px;
-  margin-top: 100px;
+  margin-top: 20px;
   background-color: lavenderblush;
 }
