@@ -3,25 +3,28 @@ body {
   margin-top: auto;
 }
 
+.wrapper {
+  display: block;
+  width: 75%;
+  margin: auto;
+  background-color: white;
+}
+
 header {
   text-align: center;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
-article {
-  width: 50%;
+.main {
+  display: block;
   margin: auto;
+  padding: 20px;
   background-color: white;
-  padding: 10px 20px 10px 20px;
-}
-
-section {
-  width: 50%;
-  margin: auto;
-  background-color: white;
-  padding: 10px 20px 10px 20px;
+  border-style: solid;
+  border-color: purple;
+  border-radius: 10px;
 }
 
 header h1 {
@@ -30,34 +33,44 @@ header h1 {
 }
 
 h2 {
-  font-family: arial;
+  font-family: 'Poiret One', cursive;
   font-size: 18pt;
   color: cadetblue;
 }
 
+h2:hover {
+  font-style: italic;
+}
+
 h3 {
   font-family: arial;
-  font-size: 16pt;
-  color: gray;
+  font-size: 12pt;
+  color: slategray;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 10px 20px 10px 5px;
 }
 
 p {
-  font-family: arial;
-  font-size: 14pt;
-  color: black;
+  font-family: 'Arapey', serif;
+  font-size: 12pt;
+  color: dimgray;
 }
 
 ul {
-  font-family: arial;
+  font-family: 'Arapey', serif;
   font-size: 14pt;
-  color: black;
+  color: dimgray;
   padding-left: 20px;
+  list-style-type: square;
 }
 
 ol {
-  font-family: arial;
+  font-family: 'Arapey', serif;
   font-size: 14pt;
-  color: black;
+  color: dimgray;
   padding-left: 20px;
 }
 
@@ -65,8 +78,10 @@ a {
   text-decoration: none;
 }
 
+/* mouse over link */
 a:hover {
   color: pink;
+  text-decoration: underline;
 }
 
 .nav {
@@ -75,8 +90,10 @@ a:hover {
 }
 
 .botfooter {
+  clear: both;
   border-width: 1px;
   border-style: solid;
-  padding: 10px 20px 10px 20px;
-  margin-top: 10px;
+  padding: 5px 20px 5px 20px;
+  margin-top: 20px;
+  background-color: lavenderblush;
 }
